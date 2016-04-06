@@ -60,7 +60,7 @@ d3.tsv("data/sat.tsv", function(error, data){
       .attr("x", width)
       .attr("y", -6)
       .style("text-anchor", "end")
-      .text("Sepal Width (cm)");
+      .text("Participation Rate");
 
   svg.append("g")
       .attr("class", "y axis")
@@ -71,7 +71,7 @@ d3.tsv("data/sat.tsv", function(error, data){
       .attr("y", 6)
       .attr("dy", ".71em")
       .style("text-anchor", "end")
-      .text("Sepal Length (cm)")
+      .text("SAT Scores")
 });
 
    
